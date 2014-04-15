@@ -52,3 +52,7 @@ coverage.xml
 # Sphinx documentation
 docs/_build/
 
+
+src/config-dont-commit.py
+
+venv/include/python2.7

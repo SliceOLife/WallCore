@@ -4,7 +4,17 @@ WallCore
 WallCore is a Python utility to keep your wallpapers in sync across multiple devices via Dropbox
 
 
-Configuration
-========
+### Configuration
+In development, configuration is done by creating a config.py with the following variables:
 
-In development, configuration is purely done by editing the **APP.DROPBOX_KEY**, **APP.DROPBOX_SECRET** and **APP.DROPBOX_DEBUGKEY** variables in config.py.
+```python
+APP_DEBUG = True
+APP_VER = '0.1.1'
+DROPBOX_KEY = ''
+DROPBOX_SECRET = ''
+DROPBOX_DEBUGKEY = ''
+```
+
+### What is it?
+
+In the end, WallCore should hopefully provide a nice and easy way to sync your desktop wallpaper between your OS X, Windows and Linux machines, detecting changes as you change it one system, then automatically changing it on the other, all powered by Dropbox in the back.

@@ -8,7 +8,7 @@ WallCore is a Python utility to keep your wallpapers in sync across multiple dev
 In development, configuration is done by creating a config.py with the following variables:
 
 ```python
-APP_DEBUG = True
+APP_DEBUG = True # or false if you have no access token(debugkey) yet.
 APP_VER = '0.1.1'
 DROPBOX_KEY = ''
 DROPBOX_SECRET = ''
